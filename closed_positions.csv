@@ -1,0 +1,2 @@
+ticket,symbol,volume,order_type,price,close_time,predicted_diff,result_code,comment
+5213391603,Volatility 10 Index,0.5,buy,6606.615,2024-09-16 16:11:09,,10009,Position closed
