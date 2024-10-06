@@ -1,2 +1,12 @@
+numpy
+pandas
+requests
+logging
+tensorflow
+streamlit
+joblib
+matplotlib
+scikit-learn
 mysql-connector-python
-bcrypt
+pandas-ta
+# Ensure this is an actual package in your environment
