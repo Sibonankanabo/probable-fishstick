@@ -174,8 +174,8 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                 predicted_diff_placeholder.write(f"Predicted Difference: {predicted_diff}")
                 print(f"The predicted difference is: {predicted_diff}")
 
-                stop_loss_pct = 0.0005
-                take_profit_pct = 0.007
+                stop_loss_pct = 0.005
+                take_profit_pct = 0.009
 
                 stop_loss_buy = current_price * (1 - stop_loss_pct)
                 stop_loss_sell = current_price * (1 + stop_loss_pct)

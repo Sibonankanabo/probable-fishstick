@@ -109,8 +109,11 @@ def place_order():
     result = mt5.order_send(order_request)
 
     if result.retcode != mt5.TRADE_RETCODE_DONE:
+        print(mt5.last_error())
         return jsonify({"status": "error", "message": f"Failed to place order: {result.retcode}"}), 500
-
+        
+    
+    print(mt5.last_error())
     return jsonify({"status": "success", "message": "Order placed successfully.", "result": result._asdict()})
 
 @orders_bp.route('/update_trailing_stop_loss', methods=['POST'])
