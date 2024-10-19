@@ -3,7 +3,7 @@ import mysql.connector
 from mysql.connector import Error
 import pandas as pd
 from magicbox import train_model as tr
-from magicbox import train_decisions as tr_d
+# from magicbox import train_decisions as tr_d
 
 if 'logged_in' in st.session_state and st.session_state['logged_in']:
     print('login')
@@ -85,7 +85,7 @@ if joined_data:
         st.write("Model training initiated with the selected data.")
         tr.train(selected_option['login_id'], selected_option['server'], selected_option['password'], selected_option['symbol'])
         # pt.show(selected_option['login_id'], selected_option['server'], selected_option['password'], selected_option['symbol'])
-        tr_d.train_decisions(selected_option['symbol'])
+        # tr_d.train_decisions(selected_option['symbol'])
         # Add your model training code here
 else:
     st.write("No data found.")

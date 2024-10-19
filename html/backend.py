@@ -1,7 +1,7 @@
 from flask import Blueprint, Flask, request, jsonify, render_template, redirect, url_for, session
 import mysql.connector
 import bcrypt  # Use bcrypt for hashing
-
+ 
 backend_bp = Blueprint('backend', __name__)
 
 # MySQL connection

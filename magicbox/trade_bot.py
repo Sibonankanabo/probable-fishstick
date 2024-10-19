@@ -10,7 +10,7 @@ import mysql.connector
 from mysql.connector import Error
 import joblib  # For loading the scaler
 import streamlit as st
-from magicbox import decisions as dc
+# from magicbox import decisions as dc
 
 # Setup logging
 logging.basicConfig(filename="traderbot.log", level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -109,6 +109,20 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
         except Exception as e:
             logging.error("Error closing positions: %s", e)
             return None
+    
+    def get_trend(login_id, password, server, symbol):
+        payload = {"login_id": login_id, "password": password, "server": server, "symbol": symbol}
+        try:
+            response = requests.post(f"{BASE_URL}/get_trend", json=payload)
+            if response.status_code == 200:
+                logging.info("Positions closed successfully.")
+                return response.json()
+            else:
+                logging.error("Failed to close positions: %s", response.json().get('message'))
+                return None
+        except Exception as e:
+            logging.error("Error closing positions: %s", e)
+            return None
     # def trailing_stop_loss(login_id, password, server, symbol, trailing_distance):
     #     payload = {"login_id": login_id, "password": password, "server": server, "symbol": symbol, "trailing_distance": trailing_distance}
     #     try:
@@ -126,7 +140,8 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
     # Streamlit setup for displaying info
     st.title("Forex Trader Bot")
     predicted_diff_placeholder = st.empty()  # Placeholder for predicted diff
-    order_type_placeholder = st.empty()     # Placeholder for order type
+    order_type_placeholder = st.empty()
+    latest_behavior_placeholder = st.empty()# Placeholder for order type
     countdown_placeholder = st.empty()      # Placeholder for countdown timer
 
     def countdown_timer(minutes):
@@ -160,6 +175,7 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                 atr = np.array(data['atr'])  # Average True Range (ATR)
                 scaled_features = np.array(data['scaled_features'])  # Other scaled features
                 original_data = np.array(data['X_train_original'])
+                
 
                 # Reshape data if necessary for the model input
                 X_new_data = np.reshape(X_new_data, (X_new_data.shape[0], 1, X_new_data.shape[1]))
@@ -172,8 +188,22 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
 
                 # Display prediction in Streamlit
                 predicted_diff_placeholder.write(f"Predicted Difference: {predicted_diff}")
+                market = get_trend(login_id, password, server, symbol)
+                
+                latest_behavior = np.array(market['latest_behavior'])
+                
                 print(f"The predicted difference is: {predicted_diff}")
+                print(f"the market is:{market}")
+                
+                if market:
+                    latest_behavior = market.get('latest_behavior', "No behavior data")
+                    latest_behavior_placeholder.write(f"Latest Market Behavior: {latest_behavior}")
+                    logging.info(f"Latest Market Behavior: {latest_behavior}")
 
+                else:
+                    latest_behavior_placeholder.write("Error fetching market behavior.")
+                    logging.error("Failed to fetch market behavior.")
+                
                 stop_loss_pct = 0.005
                 take_profit_pct = 0.009
 
@@ -192,12 +222,13 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                     tp_level = take_profit_sell
                 else:
                     order_type = "hold"
+                    
 
                 # Display order type in Streamlit
                 order_type_placeholder.write(f"Order Type: {order_type}")
                 print(f"Order type: {order_type}")
 
-                if order_type == "hold":
+                if order_type == "hold" or latest_behavior == "unknown":
                     logging.info("No trade placed. Signal too weak to trade.")
                     # Sleep for 15 minutes before the next check if the signal is weak
                     countdown_timer(3)  # Countdown 15 minutes
