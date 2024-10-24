@@ -8,8 +8,11 @@ import requests
 import logging
 import mysql.connector
 from mysql.connector import Error
-import joblib  # For loading the scaler
+import threading  # For loading the scaler
 import streamlit as st
+import  os
+import threading
+import time
 # from magicbox import decisions as dc
 
 # Setup logging
@@ -68,7 +71,7 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
     except Exception as e:
         logging.error("Failed to load scaler: %s", e)
         scaler = None
-
+    
     # Function to place orders via Flask API
     def place_order(order_type, price, sl_level, tp_level, predicted_diff):
         payload = {
@@ -123,26 +126,15 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
         except Exception as e:
             logging.error("Error closing positions: %s", e)
             return None
-    # def trailing_stop_loss(login_id, password, server, symbol, trailing_distance):
-    #     payload = {"login_id": login_id, "password": password, "server": server, "symbol": symbol, "trailing_distance": trailing_distance}
-    #     try:
-    #         response = requests.post(f"{BASE_URL}/close_position", json=payload)
-    #         if response.status_code == 200:
-    #             logging.info("Positions closed successfully.")
-    #             return response.json()
-    #         else:
-    #             logging.error("Failed to close positions: %s", response.json().get('message'))
-    #             return None
-    #     except Exception as e:
-    #         logging.error("Error closing positions: %s", e)
-    #         return None
-
+    
     # Streamlit setup for displaying info
     st.title("Forex Trader Bot")
     predicted_diff_placeholder = st.empty()  # Placeholder for predicted diff
     order_type_placeholder = st.empty()
     latest_behavior_placeholder = st.empty()# Placeholder for order type
-    countdown_placeholder = st.empty()      # Placeholder for countdown timer
+    countdown_placeholder = st.empty()
+    
+    # Placeholder for countdown timer
 
     def countdown_timer(minutes):
         """Shows a countdown timer in Streamlit."""
@@ -228,14 +220,15 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                 order_type_placeholder.write(f"Order Type: {order_type}")
                 print(f"Order type: {order_type}")
 
-                if order_type == "hold" or latest_behavior == "unknown":
+                if order_type == "hold" or latest_behavior == "Unknown":
                     logging.info("No trade placed. Signal too weak to trade.")
                     # Sleep for 15 minutes before the next check if the signal is weak
-                    countdown_timer(3)  # Countdown 15 minutes
+                    countdown_timer(1)  # Countdown 15 minutes
                 else:
                     # Close existing positions
                     close_positions(order_type)
-                   
+                    
+                    
                     # Place the new order
                     price = float(current_price)
                     predicted_diff = float(predicted_diff)
@@ -255,3 +248,41 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
     except Exception as e:
         logging.error("Error occurred: %s", e)
         print(e)
+
+
+
+
+def trailing_stop_loss(login_id, password, server, symbol, trailing_distance):
+    trailing_stop_loss_placeholder = st.empty()
+    payload = {
+        "login_id": login_id,
+        "password": password,
+        "server": server,
+        "symbol": symbol,
+        "trailing_distance": trailing_distance
+    }
+
+    def trigger_trailing_stop_loss():
+        try:
+            response = requests.post(f"{BASE_URL}/start_trailing", json=payload)
+            if response.status_code == 200:
+                logging.info("Trailing Stop Loss Triggered successfully.")
+                trailing_stop_loss_placeholder.write(f"Trailing Stop Loss Triggered: {response.json()}")
+            else:
+                logging.error(f"Failed to trigger trailing stop loss: {response.json().get('message')}")
+                trailing_stop_loss_placeholder.write(f"Trailing Stop Loss Error: {response.json().get('message')}")
+        except Exception as e:
+            logging.error(f"Error in trailing stop loss: {str(e)}")
+            trailing_stop_loss_placeholder.write(f"Error in Trailing Stop Loss: {str(e)}")
+        
+        # Call this function again after 25 seconds
+        threading.Timer(25, trigger_trailing_stop_loss).start()
+
+    # Start the initial call to trigger trailing stop loss
+    trigger_trailing_stop_loss()
+
+def start_thread(login_id, password, server, symbol, lot_size, risk_percentage,trailing_distance):
+    # Start the traderbot and trailing stop loss in separate threads
+    threading.Thread(target=traderbot, args=(login_id, server, password, symbol, lot_size, risk_percentage)).start()
+    threading.Thread(target=trailing_stop_loss, args=(login_id, password, server, symbol, trailing_distance)).start()
+    st.write()  

@@ -10,6 +10,7 @@ from auth import auth_bp
 from data import data_bp
 from orders import orders_bp
 from trend import trend_dp
+from  trailing import trailing_dp
 
 
 class FlaskAppManager:
@@ -60,9 +61,10 @@ class FlaskAppManager:
         app.register_blueprint(data_bp)
         app.register_blueprint(orders_bp)
         app.register_blueprint(trend_dp)
+        app.register_blueprint(trailing_dp)
 
         if __name__ == '__main__':
-            app.run(host='0.0.0.0', port=5000)
+            app.run(host='0.0.0.0', port=500)
 
         # Capture output and print to console
         for line in self.flask_process.stdout:
