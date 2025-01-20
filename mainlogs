@@ -1,0 +1,704 @@
+2025-01-11 17:51:12,315 - From C:\Users\sibona\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-11 18:59:36,881 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 18:59:36,896 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:00:02,198 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:00:02,214 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:07:52,829 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:07:52,845 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:15:53,348 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:15:53,360 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:21:08,932 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:21:08,949 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:32:47,478 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:32:47,497 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:40:56,755 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:40:56,771 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:52:20,451 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:52:20,460 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:55:03,616 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:55:03,625 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:55:48,988 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:55:49,020 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 19:57:26,886 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 19:57:26,902 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:12:19,897 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:12:19,913 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:17:53,835 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:17:53,846 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:18:15,571 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:18:15,586 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:19:06,792 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:19:06,807 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:33:43,095 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:33:43,111 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:34:37,031 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:34:37,047 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:42:20,085 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:42:20,100 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:43:01,221 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:43:01,221 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:48:51,709 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:48:51,724 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:50:36,128 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:50:36,143 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:55:07,317 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:55:07,317 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-11 20:55:29,182 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-11 20:55:29,198 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:19:41,693 - From C:\Users\sibona\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-15 14:48:08,583 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:48:08,600 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:48:57,085 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:48:57,085 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:52:41,955 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:52:41,970 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:53:13,243 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:53:13,243 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:54:45,064 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:54:45,079 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 14:58:13,422 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 14:58:13,437 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:00:13,591 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:00:13,607 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:03:48,097 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:03:48,113 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:04:17,951 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:04:17,960 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:04:55,407 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:04:55,407 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:05:34,554 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:05:34,569 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:12:01,434 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:12:01,456 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:13:48,509 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:13:48,509 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:14:43,521 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:14:43,521 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:18:57,677 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:18:57,692 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:29:48,638 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:29:48,651 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:32:06,961 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:32:06,977 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-15 15:35:52,741 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-15 15:35:52,758 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:21:02,032 - From C:\Users\sibona\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-01-16 20:22:09,570 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:22:09,585 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:27:31,665 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:27:31,682 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:32:42,141 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:32:42,157 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:34:13,047 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:34:13,064 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:35:15,131 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:35:15,156 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:36:23,870 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:36:23,886 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:38:47,790 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:38:47,800 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:39:21,025 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:39:21,044 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:40:21,159 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:40:21,170 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 20:42:20,561 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 20:42:20,561 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:01:41,641 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:01:41,658 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:02:24,930 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:02:24,946 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:05:47,620 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:05:47,620 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:06:56,644 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:06:56,652 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:36:10,957 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:36:10,957 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:41:08,856 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:41:08,872 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:44:12,850 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:44:12,865 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:57:36,547 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:57:36,555 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:57:49,421 - Positions closed successfully.
+2025-01-16 21:58:29,581 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 21:58:29,597 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 21:58:42,323 - Positions closed successfully.
+2025-01-16 22:09:05,036 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:09:05,036 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:09:18,394 - Positions closed successfully.
+2025-01-16 22:09:20,443 - Order placement failed: Missing required fields.
+2025-01-16 22:24:41,829 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:24:41,853 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:24:55,024 - Positions closed successfully.
+2025-01-16 22:27:26,342 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:27:26,365 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:27:38,980 - Positions closed successfully.
+2025-01-16 22:27:41,014 - Order placement failed: Missing required fields.
+2025-01-16 22:27:54,609 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:27:54,624 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:28:07,544 - Positions closed successfully.
+2025-01-16 22:28:09,580 - Order placement failed: Missing required fields.
+2025-01-16 22:28:40,423 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:28:40,442 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:28:53,405 - Positions closed successfully.
+2025-01-16 22:28:55,441 - Order placement failed: Missing required fields.
+2025-01-16 22:31:58,069 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:31:58,084 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:32:11,640 - Positions closed successfully.
+2025-01-16 22:32:13,690 - Order placement failed: Missing required fields.
+2025-01-16 22:51:53,466 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:51:53,483 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:58:26,998 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 22:58:26,998 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 22:59:07,504 - Positions closed successfully.
+2025-01-16 22:59:09,529 - Order placement failed: Missing required fields.
+2025-01-16 23:04:19,806 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:04:19,806 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:04:32,796 - Positions closed successfully.
+2025-01-16 23:04:34,838 - Order placement failed: Missing required fields.
+2025-01-16 23:08:48,852 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:08:48,868 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:09:02,569 - Positions closed successfully.
+2025-01-16 23:09:04,615 - Order placement failed: Missing required fields.
+2025-01-16 23:10:04,067 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:10:04,097 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:10:16,586 - Positions closed successfully.
+2025-01-16 23:10:18,640 - Error placing order: Expecting value: line 1 column 1 (char 0)
+2025-01-16 23:12:47,934 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:12:47,950 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:13:01,007 - Positions closed successfully.
+2025-01-16 23:13:03,042 - Order placement failed: Failed to place order: 10014
+2025-01-16 23:16:43,874 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:16:43,890 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:16:57,056 - Positions closed successfully.
+2025-01-16 23:16:59,088 - Order placement failed: Missing required fields.
+2025-01-16 23:17:26,282 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:17:26,298 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:17:38,774 - Positions closed successfully.
+2025-01-16 23:17:40,805 - Error placing order: Expecting value: line 1 column 1 (char 0)
+2025-01-16 23:28:00,381 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-16 23:28:00,397 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-16 23:28:13,357 - Positions closed successfully.
+2025-01-16 23:28:15,404 - Order placement failed: Failed to place order: 10014
+2025-01-20 16:29:35,912 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-01-20 16:29:35,943 - Model 5569074_Volatility 10 Index.h5 loaded successfully
+2025-01-20 16:30:43,093 - Failed to load model 5569074_Volatility 10 Index.h5: pop from empty list
+2025-01-20 16:30:43,448 - Positions closed successfully.
+2025-01-20 16:30:45,035 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:30:45,476 - Order placement failed: Failed to place order: 10014
+2025-01-20 16:31:12,062 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:31:39,098 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:32:06,141 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:32:33,202 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:33:00,235 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:33:27,271 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:33:54,302 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:34:21,356 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:34:48,416 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:35:15,452 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:35:42,483 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:36:09,509 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:36:36,541 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:37:03,570 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:37:30,603 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:37:57,634 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:38:24,689 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:38:51,733 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:39:18,757 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:39:45,791 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:40:12,834 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:40:39,894 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:41:06,929 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:41:33,969 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:42:01,009 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:42:28,048 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:42:55,093 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:43:22,133 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:43:49,160 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:44:16,193 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:44:43,233 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:45:10,268 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:45:37,302 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:46:04,340 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:46:31,380 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:46:58,423 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:47:25,462 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:47:52,504 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:48:19,561 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:48:46,604 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:49:15,216 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:49:42,250 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:50:09,280 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:50:36,318 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:51:03,360 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:51:30,401 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:51:57,428 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:52:24,462 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:52:51,493 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:53:18,519 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:53:45,552 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:54:12,599 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:54:39,629 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:55:06,669 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:55:33,712 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:56:00,739 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:56:27,766 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:56:54,796 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:57:21,823 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:57:48,861 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:58:15,902 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:58:42,928 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:59:09,955 - Trailing Stop Loss Triggered successfully.
+2025-01-20 16:59:36,997 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:00:04,038 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:00:31,079 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:00:58,123 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:01:25,155 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:01:52,184 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:02:19,223 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:02:46,276 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:03:13,305 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:03:40,333 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:04:07,374 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:04:34,415 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:05:01,457 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:05:28,485 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:05:55,527 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:06:22,568 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:06:49,610 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:07:16,637 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:07:43,670 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:08:10,705 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:08:37,744 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:09:04,784 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:09:31,821 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:09:58,870 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:10:25,908 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:10:52,936 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:11:19,967 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:11:47,001 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:12:14,036 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:12:41,062 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:13:08,103 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:13:35,144 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:14:02,201 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:14:29,233 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:14:56,259 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:29:55,262 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:30:22,391 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:30:49,456 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:31:16,602 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:31:43,634 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:32:10,671 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:32:37,710 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:33:04,736 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:33:31,769 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:33:58,814 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:34:26,231 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:34:53,273 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:35:20,317 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:35:47,371 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:36:14,428 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:36:41,473 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:37:08,496 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:37:35,537 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:38:02,578 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:38:29,652 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:38:56,677 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:39:23,719 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:39:50,747 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:40:17,789 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:40:44,831 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:41:11,880 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:41:38,912 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:42:05,954 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:42:32,993 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:43:00,029 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:43:27,058 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:43:54,101 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:44:21,128 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:44:48,166 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:45:15,199 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:45:42,237 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:46:09,273 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:46:36,308 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:47:03,350 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:47:30,405 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:47:57,446 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:48:24,476 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:48:51,515 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:49:18,549 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:49:45,600 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:50:12,777 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:50:39,864 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:51:06,882 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:51:33,913 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:52:00,960 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:52:28,002 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:52:55,029 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:53:22,094 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:53:49,139 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:54:16,165 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:54:43,230 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:55:10,270 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:55:37,306 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:56:04,336 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:56:31,364 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:56:58,397 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:57:26,625 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:57:57,109 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:58:35,089 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:59:06,643 - Trailing Stop Loss Triggered successfully.
+2025-01-20 17:59:38,189 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:00:06,717 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:00:36,775 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:01:07,276 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:01:40,267 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:02:11,138 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:02:44,618 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:03:17,324 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:03:50,070 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:04:21,059 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:04:55,164 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:05:27,632 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:05:54,681 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:06:21,716 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:06:48,752 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:07:15,784 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:07:42,838 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:08:09,920 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:08:37,002 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:09:04,040 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:09:31,079 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:09:58,149 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:10:25,178 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:10:52,219 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:11:26,393 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:11:56,742 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:12:25,947 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:12:57,430 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:13:25,611 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:13:55,740 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:14:27,725 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:14:58,956 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:15:28,776 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:15:58,721 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:16:29,321 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:16:59,362 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:17:33,418 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:18:08,185 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:18:45,270 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:19:14,976 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:19:43,431 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:20:14,138 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:20:42,427 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:21:18,658 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:21:49,596 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:22:17,164 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:22:44,205 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:23:17,489 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:23:48,737 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:24:19,184 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:24:47,788 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:25:16,217 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:25:44,796 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:26:13,099 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:26:40,848 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:27:12,142 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:27:45,911 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:28:20,255 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:28:49,285 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:29:25,116 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:29:55,204 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:30:23,695 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:30:50,734 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:31:17,776 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:31:44,818 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:32:11,872 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:32:38,896 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:33:05,943 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:33:32,974 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:34:00,019 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:34:27,044 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:34:54,082 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:35:21,116 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:35:48,142 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:36:15,191 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:36:42,231 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:37:09,263 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:37:43,195 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:38:13,801 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:38:40,853 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:39:07,870 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:39:34,908 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:40:01,963 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:40:29,020 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:40:56,041 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:41:23,079 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:41:50,121 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:42:17,148 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:42:44,178 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:43:11,205 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:43:38,240 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:44:05,278 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:44:32,312 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:44:59,362 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:45:26,402 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:45:53,438 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:46:20,486 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:46:47,514 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:47:14,544 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:47:41,616 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:48:08,688 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:48:35,721 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:49:02,764 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:49:29,821 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:49:56,850 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:50:23,925 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:50:50,954 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:51:17,987 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:51:45,017 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:52:12,055 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:52:39,088 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:53:06,147 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:53:33,248 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:54:00,321 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:54:27,343 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:54:54,378 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:55:21,524 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:55:48,551 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:56:15,594 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:56:42,643 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:57:09,668 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:57:36,701 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:58:03,754 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:58:30,790 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:58:57,826 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:59:24,856 - Trailing Stop Loss Triggered successfully.
+2025-01-20 18:59:51,883 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:00:18,921 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:00:45,959 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:01:12,982 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:01:40,017 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:02:07,055 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:02:34,110 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:03:01,147 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:03:28,183 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:03:55,224 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:04:22,335 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:04:49,388 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:05:16,431 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:05:44,133 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:06:12,240 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:06:44,055 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:07:12,125 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:07:39,165 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:08:07,532 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:08:38,020 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:09:09,168 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:09:41,694 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:10:11,100 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:10:38,123 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:11:06,653 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:11:34,645 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:12:02,962 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:12:29,994 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:13:00,541 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:13:30,145 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:13:59,049 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:14:27,258 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:14:55,183 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:15:23,376 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:15:50,427 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:16:17,457 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:16:44,478 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:17:11,518 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:17:38,545 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:18:05,598 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:18:32,627 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:18:59,668 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:19:26,704 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:19:53,734 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:20:20,762 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:20:47,804 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:21:14,828 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:21:41,865 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:22:08,900 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:22:35,927 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:23:02,958 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:23:29,984 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:23:57,017 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:24:24,045 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:24:51,102 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:25:18,135 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:25:45,165 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:26:12,194 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:26:39,225 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:27:06,253 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:27:33,312 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:28:00,362 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:28:27,402 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:28:54,432 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:29:21,473 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:29:48,508 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:30:15,536 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:30:42,636 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:31:09,681 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:31:36,711 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:32:03,740 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:32:30,774 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:32:57,801 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:33:24,833 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:33:51,862 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:34:18,957 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:34:45,996 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:35:13,025 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:35:40,058 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:36:07,087 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:36:34,117 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:37:01,150 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:37:28,184 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:37:55,243 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:38:22,269 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:38:49,300 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:39:16,329 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:39:43,358 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:40:10,386 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:40:37,427 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:41:04,459 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:41:31,516 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:41:58,558 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:42:25,602 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:42:52,630 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:43:19,738 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:43:46,775 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:44:13,815 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:44:40,843 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:45:07,877 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:45:34,947 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:46:02,001 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:46:29,036 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:46:56,077 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:47:23,139 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:47:50,189 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:48:17,332 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:48:44,352 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:49:11,399 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:49:38,434 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:50:05,463 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:50:32,527 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:50:59,572 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:51:26,599 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:51:53,638 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:52:20,669 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:52:47,703 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:53:14,741 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:53:41,774 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:54:08,832 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:54:35,890 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:55:02,912 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:55:29,956 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:55:57,004 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:56:24,027 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:56:51,060 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:57:18,089 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:57:45,137 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:58:12,171 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:58:39,202 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:59:06,230 - Trailing Stop Loss Triggered successfully.
+2025-01-20 19:59:33,266 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:00:00,318 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:00:27,354 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:00:54,410 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:01:21,434 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:01:48,468 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:02:15,495 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:02:42,525 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:03:09,555 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:03:36,593 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:04:03,627 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:04:30,675 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:04:57,697 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:05:24,776 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:05:51,802 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:06:18,828 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:06:45,865 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:07:12,902 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:07:39,938 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:08:06,976 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:08:34,006 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:09:01,036 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:09:28,066 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:09:55,097 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:10:22,163 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:10:49,184 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:11:16,216 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:11:43,252 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:12:10,276 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:12:37,304 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:13:04,340 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:13:31,368 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:13:58,396 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:14:25,438 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:14:52,467 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:15:19,494 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:15:46,521 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:16:13,554 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:16:40,607 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:17:07,633 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:17:34,682 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:18:01,751 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:18:28,784 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:18:55,824 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:19:22,875 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:19:49,919 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:20:17,002 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:20:44,031 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:21:11,068 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:21:38,144 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:22:05,190 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:22:32,222 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:22:59,249 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:23:26,280 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:23:53,313 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:24:20,341 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:24:47,369 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:25:14,407 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:25:41,444 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:26:08,494 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:26:35,531 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:27:02,573 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:27:29,608 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:27:56,642 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:28:23,677 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:28:50,714 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:29:17,755 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:29:44,795 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:30:11,834 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:30:38,866 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:31:05,899 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:31:32,947 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:31:59,972 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:32:27,005 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:32:54,046 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:33:21,073 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:33:48,111 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:34:15,159 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:34:42,188 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:35:09,247 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:35:36,313 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:36:03,365 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:36:30,473 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:36:57,594 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:37:24,627 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:37:51,670 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:38:18,708 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:38:45,743 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:39:12,792 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:39:39,825 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:40:06,860 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:40:33,926 - Trailing Stop Loss Triggered successfully.
+2025-01-20 20:41:00,973 - Trailing Stop Loss Triggered successfully.

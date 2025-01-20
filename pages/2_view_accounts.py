@@ -3,11 +3,11 @@ import mysql.connector
 from mysql.connector import Error
 import pandas as pd
 
-if 'logged_in' in st.session_state and st.session_state['logged_in']:
-    print('login')
-else:
-    st.warning("Please log in to access this page.")
-    st.stop()
+# if 'logged_in' in st.session_state and st.session_state['logged_in']:
+#     print('login')
+# else:
+#     st.warning("Please log in to access this page.")
+#     st.stop()
 # Function to connect to MySQL database and fetch data
 def fetch_data():
     try:

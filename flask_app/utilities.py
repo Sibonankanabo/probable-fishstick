@@ -28,7 +28,7 @@ def retrieve_mt5_data(login_id, password, server, symbol, timeframe=mt5.TIMEFRAM
     return df
 
 def process_data(df):
-    X_train_original = df.copy()
+    
     
     df['RSI'] = ta.rsi(df['close'], length=9)
     df['EMAF'] = ta.ema(df['close'], length=10)
@@ -41,7 +41,8 @@ def process_data(df):
     df['target'] = df['TargetNextClose'] - df['close']
     df.drop(['tick_volume', 'spread', 'real_volume', 'close', 'time'], axis=1, inplace=True)
     df.dropna(inplace=True)
-
+    
+    X_train_original = df.copy()
     
     # X_train_original = X_train_original.drop('TargetNextClose', axis=1)
     scaler = MinMaxScaler()

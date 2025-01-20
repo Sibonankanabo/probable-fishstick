@@ -13,7 +13,7 @@ import streamlit as st
 import  os
 import threading
 import time
-# from magicbox import decisions as dc
+from magicbox import decisions as dc
 
 # Setup logging
 logging.basicConfig(filename="traderbot.log", level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -203,7 +203,9 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                 stop_loss_sell = current_price * (1 + stop_loss_pct)
                 take_profit_buy = current_price * (1 + take_profit_pct)
                 take_profit_sell = current_price * (1 - take_profit_pct)
-
+                
+                order_type = dc.decision(original_data,predicted_diff)
+                print(order_type)
                 if predicted_diff > 7:
                     order_type = "buy"
                     sl_level = stop_loss_buy
@@ -214,13 +216,13 @@ def traderbot(login_id, server, password, symbol, lot_size, risk_percentage):
                     tp_level = take_profit_sell
                 else:
                     order_type = "hold"
-                    
+                  
 
                 # Display order type in Streamlit
                 order_type_placeholder.write(f"Order Type: {order_type}")
                 print(f"Order type: {order_type}")
 
-                if order_type == "hold" or latest_behavior == "Unknown":
+                if order_type == "hold" or latest_behavior == "Unknown" or latest_behavior ==  "Choppy":
                     logging.info("No trade placed. Signal too weak to trade.")
                     # Sleep for 15 minutes before the next check if the signal is weak
                     countdown_timer(1)  # Countdown 15 minutes
@@ -285,4 +287,4 @@ def start_thread(login_id, password, server, symbol, lot_size, risk_percentage,t
     # Start the traderbot and trailing stop loss in separate threads
     threading.Thread(target=traderbot, args=(login_id, server, password, symbol, lot_size, risk_percentage)).start()
     threading.Thread(target=trailing_stop_loss, args=(login_id, password, server, symbol, trailing_distance)).start()
-    st.write()  
+    

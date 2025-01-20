@@ -4,11 +4,11 @@ from mysql.connector import Error
 from magicbox import trade_bot as tb  # Assuming this contains both traderbot and trailing_stop_loss functions
 
 # Ensure user is logged in
-if 'logged_in' in st.session_state and st.session_state['logged_in']:
-    st.write('logged in')
-else:
-    st.warning("Please log in to access this page.")
-    st.stop()
+# if 'logged_in' in st.session_state and st.session_state['logged_in']:
+#     st.write('logged in')
+# else:
+#     st.warning("Please log in to access this page.")
+#     st.stop()
 
 # Function to connect to MySQL database and fetch joined data
 def fetch_joined_data():
