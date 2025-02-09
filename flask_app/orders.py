@@ -6,28 +6,6 @@ from datetime import datetime
 
 orders_bp = Blueprint('orders', __name__)
 
-# Helper function to save or update trade data in CSV
-def create_csv(symbol, positions):
-    filename = f"{symbol}_trades.csv"
-
-    # Check if the file exists
-    file_exists = os.path.isfile(filename)
-
-    # Convert each position to a dictionary
-    positions_data = [position._asdict() for position in positions]
-
-    # Create a DataFrame from the list of dictionaries
-    df = pd.DataFrame(positions_data)
-
-    # Print the columns (keys) for debugging
-    # print(f"Columns in DataFrame: {df.columns.tolist()}")
-
-    # Convert the time field to readable format if it exists
-    if 'time' in df.columns:
-        df['time'] = pd.to_datetime(df['time'], unit='s')
-
-    # Save the DataFrame to CSV
-    df.to_csv(filename, mode='a', header=not file_exists, index=False)
 
 
 @orders_bp.route('/close_position', methods=['POST'])
@@ -69,7 +47,7 @@ def close_position():
         results.append(result._asdict())
 
     # Save the positions data to CSV
-    create_csv(symbol, positions)
+    # create_csv(symbol, positions)
 
     return jsonify({"status": "success", "message": "Positions closed successfully.", "results": results})
 
@@ -87,16 +65,23 @@ def place_order():
     sl = data.get('sl')
     tp = data.get('tp')
     predicted_diff = data.get('predicted_diff')
-
+    
+    # sl = float(sl)
+    # tp = float(tp)
+    # price = float(price) 
+    
+    # print(sl,type(sl),tp,type(tp),price,type(price))  
+    # print(predicted_diff,sl,tp)
+    print(data)
     if not all([login_id, password, server, symbol, volume, order_type, price, sl]):
         return jsonify({"status": "error", "message": "Missing required fields."}), 404
-
+    tp = tp + predicted_diff
     predicted_diff = str(predicted_diff)
     order_type_mt5 = mt5.ORDER_TYPE_BUY if order_type.lower() == 'buy' else mt5.ORDER_TYPE_SELL
     order_request = {
         "action": mt5.TRADE_ACTION_DEAL,
         "symbol": symbol,
-        "volume": volume,
+        "volume": 1.0,
         "type": order_type_mt5,
         "price": price,
         "sl": sl,
@@ -107,13 +92,15 @@ def place_order():
         "type_filling": mt5.ORDER_FILLING_FOK,
     }
     result = mt5.order_send(order_request)
-
+   
     if result.retcode != mt5.TRADE_RETCODE_DONE:
-        print(mt5.last_error())
+        # print(mt5.last_error())
+        # print(result.retcode,order_type_mt5)
+        # print(predicted_diff,sl,tp)
         return jsonify({"status": "error", "message": f"Failed to place order: {result.retcode}"}), 500
         
     
-    print(mt5.last_error())
+    # print(mt5.last_error())
     return jsonify({"status": "success", "message": "Order placed successfully.", "result": result._asdict()})
 
 @orders_bp.route('/update_trailing_stop_loss', methods=['POST'])

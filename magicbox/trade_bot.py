@@ -11,7 +11,6 @@ from mysql.connector import Error
 import threading  # For loading the scaler
 import streamlit as st
 import  os
-import threading
 import time
 from magicbox import decisions as dc
 

@@ -83,7 +83,12 @@ if joined_data:
     # Button to proceed with the selected option (e.g., training the model)
     if st.button("Show data"):
         # st.write("Model training initiated with the selected data.")
-        main.main(selected_option['login_id'], selected_option['server'], selected_option['password'], selected_option['symbol'])
+        main.start_thread(
+            selected_option['login_id'],
+            selected_option['server'], 
+            selected_option['password'], 
+            selected_option['symbol'],
+            )
         # pt.show(selected_option['login_id'], selected_option['server'], selected_option['password'], selected_option['symbol'])
         # tr_d.train_decisions(selected_option['symbol'])
         # Add your model training code here

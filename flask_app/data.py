@@ -51,7 +51,7 @@ def get_trading_data():
 
     X_new_data, _, scaler, df_scaled, X_train_original = process_data(df)
 
-    current_price = df['EMAF'].iloc[-1]
+    current_price = X_train_original['Adj Close'].iloc[-1]
     atr = df['ATR'].iloc[-1]
 
     response_data = {

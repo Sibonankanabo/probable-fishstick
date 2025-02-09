@@ -4,7 +4,7 @@ import pandas_ta as ta
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
-def retrieve_mt5_data(login_id, password, server, symbol, timeframe=mt5.TIMEFRAME_H1, history_bars=64000):
+def retrieve_mt5_data(login_id, password, server, symbol, timeframe=mt5.TIMEFRAME_H4, history_bars=64000):
     if not mt5.initialize():
         return {"error": f"initialize() failed, error code = {mt5.last_error()}"}
 
