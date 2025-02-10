@@ -5,11 +5,11 @@ import pandas as pd
 from magicbox import train_model as tr
 # from magicbox import train_decisions as tr_d
 
-if 'logged_in' in st.session_state and st.session_state['logged_in']:
-    print('login')
-else:
-    st.warning("Please log in to access this page.")
-    st.stop()
+# if 'logged_in' in st.session_state and st.session_state['logged_in']:
+#     print('login')
+# else:
+#     st.warning("Please log in to access this page.")
+#     st.stop()
 
 # Function to connect to MySQL database and fetch joined data
 def fetch_joined_data():

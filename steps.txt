@@ -1,0 +1,76 @@
+ Step-by-Step Guide to Set Up and Run the Trading App  
+
+1️⃣ Clone the Repository  
+Open your terminal or command prompt and run:  
+```bash
+git clone <https://github.com/Sibonankanabo/probable-fishstick.git>
+cd </probable-fishstick>
+```
+
+---
+
+2️⃣ Install Required Dependencies  
+Run the following command to install all dependencies from `requirements.txt`:  
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+3️⃣ Download & Install MetaTrader 5 (MT5) on Windows  
+- Download MT5 from the official website: [MetaTrader 5 Download](https://www.metatrader5.com/en/download)  
+- Install the application and log in with your trading account.  
+- Keep MT5 running in the background while using the app.  
+
+---
+
+4️⃣ Run the Streamlit Dashboard  
+Open a terminal in the project directory and run:  
+```bash
+streamlit run login.py
+```
+- This will start the login interface where you enter your trading account credentials.  
+- Follow on-screen instructions to proceed.
+
+---
+
+5️⃣ Navigate to the Flask Application  
+Move to the `flask_app` folder:  
+```bash
+cd flask_app
+```
+
+---
+
+6️⃣ Start the Flask Backend  
+Run the Flask app with:  
+```bash
+python app.py
+```
+- This will start the backend API for trading operations.  
+- Make sure MetaTrader 5 is running before proceeding.
+
+---
+
+7️⃣ Enter Trading Account Credentials  
+- Use the Streamlit UI (`login.py`) to enter your MT5 credentials (account number, password, and server).  
+- The Flask API will authenticate your account.
+
+---
+
+8️⃣ Train the Model  
+- The script will fetch historical data from MT5.  
+- It will train an LSTM model for market predictions.  
+- If using pre-trained models, they will be loaded automatically.
+
+---
+
+9️⃣ Start Trading  
+- Once the model is trained, it will automatically analyze market trends.  
+- The bot will execute trades based on the ML model predictions.  
+- Monitor live trading via the Streamlit dashboard.
+
+---
+
+ 🎯 You’re Now Ready to Trade! 🚀  
+If you encounter any issues, let me know! 🔥

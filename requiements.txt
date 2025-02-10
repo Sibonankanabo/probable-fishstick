@@ -1,0 +1,16 @@
+flask
+streamlit
+requests
+logging
+pandas
+numpy
+magicbox
+tensorflow
+tensorflow-keras
+threading
+mysql-connector-python
+scikit-learn
+matplotlib
+pandas-ta
+MetaTrader5
+joblib

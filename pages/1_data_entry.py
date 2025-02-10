@@ -4,11 +4,11 @@ import mysql.connector
 from mysql.connector import Error
 
 # Check if user is logged in
-if 'logged_in' in st.session_state and st.session_state['logged_in']:
-    st.write('Logged in')
-else:
-    st.warning("Please log in to access this page.")
-    st.stop()
+# if 'logged_in' in st.session_state and st.session_state['logged_in']:
+#     st.write('Logged in')
+# else:
+#     st.warning("Please log in to access this page.")
+#     st.stop()
 
 # Function to save data to MySQL
 def save_to_mysql(login_id, server, password, symbol, lot_size, risk_percentage):

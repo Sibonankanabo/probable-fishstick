@@ -16411,3 +16411,130 @@ Exception encountered: 'NoneType' object has no attribute 'pop'
 2025-02-09 17:53:41,614 - Trailing Stop Loss Triggered successfully.
 2025-02-09 17:54:08,670 - Trailing Stop Loss Triggered successfully.
 2025-02-09 17:54:35,733 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:55:06,058 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:55:33,117 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:56:00,200 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:56:27,262 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:56:54,308 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:57:21,340 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:57:48,407 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:58:15,458 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:58:42,528 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:59:09,587 - Trailing Stop Loss Triggered successfully.
+2025-02-09 17:59:36,639 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:00:03,711 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:00:30,800 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:00:57,857 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:01:24,904 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:01:51,941 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:02:18,989 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:02:46,030 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:03:13,073 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:03:40,144 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:04:07,194 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:04:34,242 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:04:36,592 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 18:04:36,600 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 18:04:44,427 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6400.026, 'bid': 6399.849, 'comment': 'Request executed', 'deal': 4112214183, 'order': 4113950578, 'price': 6400.026, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6395.808, 0.0, 6382.807917984009, 6404.474721343994, 0, 0, 0, 0, 0, '4.33336067199707', 0, 0], 'request_id': 3697064620, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-09 18:04:44,437 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-09 18:05:02,885 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:05:29,956 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:05:57,030 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:06:24,071 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:06:51,139 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:07:18,186 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:07:45,251 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:08:12,304 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:08:39,359 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:09:06,416 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:09:33,468 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:10:00,534 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:10:27,585 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:10:54,628 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:11:21,667 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:11:48,720 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:12:15,775 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:17:43,970 - From C:\Users\sibona\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-02-09 18:17:52,283 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 18:17:52,290 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 18:17:55,959 - Error closing positions: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /streak (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000155396E20F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-09 18:17:55,960 - Error in trailing stop loss: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /start_trailing (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001553944BEF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-09 18:18:25,035 - Error in trailing stop loss: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /start_trailing (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001553713AA80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-02-09 18:18:52,115 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:19:19,235 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:19:46,472 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:20:13,591 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:20:40,653 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:21:07,706 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:21:28,811 - Failed to load model 40401208_Volatility 10 Index.h5: pop from empty list
+2025-02-09 18:21:28,812 - Main function failed. Retrying in 25 seconds.
+2025-02-09 18:21:30,509 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:21:30,527 - Positions closed successfully.
+2025-02-09 18:21:30,527 - No losing streak detected.
+2025-02-09 18:21:34,762 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:21:54,098 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 18:21:54,137 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 18:21:57,650 - Positions closed successfully.
+2025-02-09 18:21:57,651 - No losing streak detected.
+2025-02-09 18:21:57,651 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:22:01,838 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:22:10,225 - Order placement failed: Failed to place order: 10016
+2025-02-09 18:22:10,228 - Main function failed. Retrying in 25 seconds.
+2025-02-09 18:22:24,704 - Positions closed successfully.
+2025-02-09 18:22:24,704 - No losing streak detected.
+2025-02-09 18:22:24,734 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:22:28,912 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:22:35,378 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 18:22:35,390 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 18:22:44,621 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6393.985, 'bid': 6393.808, 'comment': 'Request executed', 'deal': 4112233334, 'order': 4113969722, 'price': 6393.808, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6395.808, 0.0, 6400.368073971748, 6392.767950685501, 0, 1, 0, 0, 0, '-1.5200246572494507', 0, 0], 'request_id': 3697064622, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-09 18:22:44,633 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-09 18:22:51,743 - Positions closed successfully.
+2025-02-09 18:22:51,743 - Losing streak detected! Stopping all operations for 1 hour.
+2025-02-09 18:22:52,949 - Trailing Stop Loss Triggered successfully.
+2025-02-09 18:22:54,013 - Cooldown active. Skipping trailing stop loss.
+2025-02-09 18:23:16,753 - Cooldown active. Streak monitor is paused.
+2025-02-09 18:23:17,963 - Cooldown active. Skipping trailing stop loss.
+2025-02-09 18:52:44,634 - Cooldown active. Waiting 1 hour before resuming operations.
+2025-02-09 18:53:16,753 - Cooldown active. Streak monitor is paused.
+2025-02-09 19:23:16,754 - Cooldown active. Streak monitor is paused.
+2025-02-09 19:52:45,141 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 19:52:45,161 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 19:52:54,355 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6397.951, 'bid': 6397.774, 'comment': 'Request executed', 'deal': 4112322373, 'order': 4114059021, 'price': 6397.951, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6396.325, 0.0, 6392.3764818429945, 6398.957345438003, 0, 0, 0, 0, 0, '1.31617271900177', 0, 0], 'request_id': 3697064624, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-09 19:52:54,375 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-09 19:53:18,800 - Positions closed successfully.
+2025-02-09 19:53:18,800 - Losing streak detected! Stopping all operations for 1 hour.
+2025-02-09 19:53:43,802 - Cooldown active. Streak monitor is paused.
+2025-02-09 20:22:54,376 - Cooldown active. Waiting 1 hour before resuming operations.
+2025-02-09 20:23:43,803 - Cooldown active. Streak monitor is paused.
+2025-02-09 20:53:43,803 - Cooldown active. Streak monitor is paused.
+2025-02-09 21:22:54,564 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 21:22:54,599 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 21:22:59,836 - Main function failed. Retrying in 25 seconds.
+2025-02-09 21:23:24,936 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 21:23:24,941 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 21:23:33,155 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6398.043, 'bid': 6397.866, 'comment': 'Request executed', 'deal': 4112407690, 'order': 4114144320, 'price': 6398.043, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6396.325, 0.0, 6392.3675404310225, 6398.963306379318, 0, 0, 0, 0, 0, '1.3191531896591187', 0, 0], 'request_id': 3697064625, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-09 21:23:33,166 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-09 21:23:45,853 - Positions closed successfully.
+2025-02-09 21:23:45,853 - Losing streak detected! Stopping all operations for 1 hour.
+2025-02-09 21:24:10,856 - Cooldown active. Streak monitor is paused.
+2025-02-09 21:53:33,166 - Cooldown active. Waiting 1 hour before resuming operations.
+2025-02-09 21:54:10,856 - Cooldown active. Streak monitor is paused.
+2025-02-09 22:24:10,857 - Cooldown active. Streak monitor is paused.
+2025-02-09 22:53:34,071 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-09 22:53:34,087 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-09 22:53:45,160 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6381.845, 'bid': 6381.668, 'comment': 'Request executed', 'deal': 4112496641, 'order': 4114233147, 'price': 6381.668, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6396.325, 0.0, 6440.353811454773, 6366.972459030151, 0, 1, 0, 0, 0, '-14.676270484924316', 0, 0], 'request_id': 3697064626, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-09 22:53:45,198 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-09 22:54:12,913 - Positions closed successfully.
+2025-02-09 22:54:12,913 - Losing streak detected! Stopping all operations for 1 hour.
+2025-02-09 22:54:37,920 - Cooldown active. Streak monitor is paused.
+2025-02-09 23:23:45,201 - Cooldown active. Waiting 1 hour before resuming operations.
+2025-02-09 23:24:37,921 - Cooldown active. Streak monitor is paused.
+2025-02-09 23:54:37,921 - Cooldown active. Streak monitor is paused.
+2025-02-10 00:23:45,406 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-10 00:23:45,457 - Model 40401208_Volatility 10 Index.h5 loaded successfully
+2025-02-10 00:23:54,896 - Order placed: {'message': 'Order placed successfully.', 'result': {'ask': 6397.348, 'bid': 6397.171, 'comment': 'Request executed', 'deal': 4112569012, 'order': 4114305428, 'price': 6397.348, 'request': [1, 0, 0, 'Volatility 10 Index', 1.0, 6378.924, 0.0, 6324.81512663269, 6414.996582244873, 0, 0, 0, 0, 0, '18.036291122436523', 0, 0], 'request_id': 3697064627, 'retcode': 10009, 'retcode_external': 0, 'volume': 1.0}, 'status': 'success'}
+2025-02-10 00:23:54,911 - Main function executed successfully. Waiting 30 minutes for the next run.
+2025-02-10 00:24:39,974 - Positions closed successfully.
+2025-02-10 00:24:39,974 - Losing streak detected! Stopping all operations for 1 hour.
+2025-02-10 00:25:04,981 - Cooldown active. Streak monitor is paused.
