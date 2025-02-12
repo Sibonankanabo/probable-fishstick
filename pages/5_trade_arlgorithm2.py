@@ -81,14 +81,15 @@ if joined_data:
     st.write(f"Risk Percentage: {selected_option['risk_percentage']}")
 
     # Button to proceed with the selected option (e.g., training the model)
-    if st.button("Show data"):
+    if st.button("start trading"):
         # st.write("Model training initiated with the selected data.")
-        main.start_thread(
+        result = main.start_thread(
             selected_option['login_id'],
             selected_option['server'], 
             selected_option['password'], 
             selected_option['symbol'],
             )
+        st.write(result)
         # pt.show(selected_option['login_id'], selected_option['server'], selected_option['password'], selected_option['symbol'])
         # tr_d.train_decisions(selected_option['symbol'])
         # Add your model training code here

@@ -83,9 +83,7 @@ def trigger_main_with_interval(login_id, server, password, symbol):
             logging.warning("Main function failed. Retrying in 25 seconds.")
             time.sleep(25)  
 
-def trailing_stop_loss(login_id, password, server, symbol):
-    global cooldown_active
-        
+def trailing_stop_loss(login_id, password, server, symbol):   
     trailing_distance = 0
     trailing_stop_loss_placeholder = st.empty()
     payload = {
@@ -97,10 +95,6 @@ def trailing_stop_loss(login_id, password, server, symbol):
     }
 
     def trigger_trailing_stop_loss():
-        if cooldown_active:
-            logging.warning("Cooldown active. Skipping trailing stop loss.")
-            return  
-        
         try:
             response = requests.post(f"{BASE_URL}/start_trailing", json=payload)
             if response.status_code == 200:
