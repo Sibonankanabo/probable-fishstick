@@ -67,21 +67,21 @@ def main(login_id, server, password, symbol):
 
 def trigger_main_with_interval(login_id, server, password, symbol):
     global cooldown_active
-    
+
     while True:
         if cooldown_active:
             logging.warning("Cooldown active. Waiting 1 hour before resuming operations.")
-            time.sleep(60 * 60)  # Wait 1 hour
+            time.sleep(60 * 30)  # Wait 30 minutes
             cooldown_active = False  # Reset cooldown flag
 
         status = main(login_id, server, password, symbol)
         
         if status == 200:
             logging.info("Main function executed successfully. Waiting 30 minutes for the next run.")
-            time.sleep(60 * 30)  
+            time.sleep(60*15)  
         else:
             logging.warning("Main function failed. Retrying in 25 seconds.")
-            time.sleep(25)  
+            time.sleep(60*15)  
 
 def trailing_stop_loss(login_id, password, server, symbol):   
     trailing_distance = 0
